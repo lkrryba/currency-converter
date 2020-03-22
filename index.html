@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>💰</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Amazing Currency Converter</h1>
+
+    <p>Convert
+    <input type="number" id="original-currency-amount" placeholder="1"></input>
+    <input type="text" id="original-currency-unit" placeholder="original currency"></input> 
+   to
+    <input type="text" id="new-currency-unit" placeholder="new currency"></input>
+  </p>
+    <p>Exchange Rate:
+    <input type="number" id="exchange-rate"></input>
+  </p>
+    <button onclick="exchangeMoney()">Exchange my moolah now!</button>
+
+    <p id="output-text">Converted <span role="img" aria-label="money">💰 </span>will appear here.</p>
+
+    <script src="converter.js"></script>
+  </body>
+</html>
